@@ -1,0 +1,160 @@
+
+/*STARTER CODE*/
+
+/*
+We have started some of the selectors for you.
+For others we have provided hints on what the selectors should be.
+There are some missing selectors.
+Make sure to learn what the starter code does!!
+*/
+
+/*STARTER CODE - DO NOT CHANGE*/
+main{
+  margin-bottom: 100px;
+}
+
+caption{
+  margin:5px 0px;
+}
+
+/* If you decide to uncomment this code, comment it back for the Autograder. */
+/* tr{
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+} */
+
+/*END STARTER CODE*/
+
+body{
+  color: #000000;
+  font-size: 16px;
+  margin: 1.2em;
+  
+  background-size: cover;
+  background-position: center;
+
+  /*Req 1*/
+  
+
+  font-family: "Andika", sans-serif;
+  background-image: url(../images/pigeon-background.JPEG);
+  background-color: #DDDDDD
+}
+
+*:focus{
+  border: dashed 3px #417243;
+}
+
+
+h1{ 
+  color: #c12258;
+  font-size: 32px;
+
+  /*Req 2*/
+  margin: auto;
+  line-height: 2;
+  text-align: center;
+
+  
+}
+
+p{
+  padding-top: 15px;
+  
+}
+
+a{
+  color: #B21F50;
+  text-decoration-style: wavy;
+  font-size: 16px;
+}
+
+/*Req 5*/
+/*Add selector and rule here*/
+
+
+
+td{
+  font-size: 16px;
+  color: #C12258;
+}
+
+
+.colhead{
+  color: #FFFFFF;
+  width: fit-content(125px);
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+  background: #7e0825;
+
+
+}
+
+.rowhead{
+
+}
+
+
+table{
+    border: 5px solid #000000;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/* I gave you the selector, but not the property-value pair. 
+You can use Inspect Element or your editor to find selectors. */
+thead tr:first-child th:first-child{
+  border-left: none;
+  
+  border-top-left-radius: 50px;
+}
+
+thead tr:first-child th:last-child{
+  border-left: none;
+  
+  border-top-right-radius: 50px;
+}
+
+thead tr:last-child th:last-child{
+  border-left: none;
+  
+  border-bottom-right-radius: 50px;
+}
+
+thead tr:last-child th:first-child{
+  border-left: none;
+  
+  border-bottom-left-radius: 50px;
+}
+
+th{
+  border-top: solid 2px #000000;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+
+td{
+
+  border-top: solid 2px #000000;
+  border-left: solid 2px #000000;
+  padding: 10px;
+  text-align: center;
+  
+}
+
+
+
+/*Add selectors and rules here*/
+
+
+
+footer{
+  width:100%;
+  background:#000000;
+  text-align:center;
+  color: #FFFFFF;
+}
