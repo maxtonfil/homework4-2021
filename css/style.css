@@ -91,10 +91,6 @@ td{
 
 }
 
-.rowhead{
-
-}
-
 
 table{
     border: 5px solid #000000;
@@ -124,8 +120,9 @@ tbody tr:last-child th:first-child{
   border-bottom-left-radius: 50px;
 }
 
-tbody tr:nth-child(10) th:nth-child(7){
 
+
+#last{
   border-bottom-right-radius: 50px;
 }
 
@@ -135,6 +132,8 @@ th{
   border-top: solid 2px #000000;
   vertical-align: middle;
   padding: 10px;
+  border-right: solid 2px #000000;
+  
 
 }
 
@@ -176,5 +175,6 @@ footer{
   left:0;
   bottom:0;
   min-height: 75px;
+
 
 }
