@@ -38,7 +38,8 @@ body{
 
   font-family: "Andika", sans-serif;
   background-image: url(../images/pigeon-2.jpg);
-  background-color: #DDDDDD
+  background-color: #DDDDDD;
+  background-repeat: no-repeat;
 }
 
 *:focus{
@@ -120,11 +121,10 @@ tbody tr:last-child th:first-child{
   border-bottom-left-radius: 50px;
 }
 
-
-
-#last{
+tbody tr:last-child td:last-child{
   border-bottom-right-radius: 50px;
 }
+
 
 
 
@@ -142,7 +142,7 @@ td{
 
   border-top: solid 2px #000000;
   
-
+  color: #000000;
   padding: 10px;
   text-align: center;
 }
