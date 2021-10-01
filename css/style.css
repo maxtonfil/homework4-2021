@@ -37,7 +37,7 @@ body{
   
 
   font-family: "Andika", sans-serif;
-  background-image: url(../images/pigeon-background.JPEG);
+  background-image: url(../images/pigeon-2.jpg);
   background-color: #DDDDDD
 }
 
@@ -82,7 +82,7 @@ td{
 
 .colhead{
   color: #FFFFFF;
-  width: fit-content(125px);
+  min-width: 125px;
   padding: 10px;
   text-align: center;
   vertical-align: middle;
@@ -135,7 +135,7 @@ th{
   border-top: solid 2px #000000;
   vertical-align: middle;
   padding: 10px;
-  border-right: solid 2px #000000;
+
 }
 
 
@@ -163,11 +163,18 @@ tr:hover{
 
 /*Add selectors and rules here*/
 
-
+.colhead{
+  text-transform: uppercase;
+}
 
 footer{
   width:100%;
   background:#000000;
   text-align:center;
   color: #FFFFFF;
+  position:fixed;
+  left:0;
+  bottom:0;
+  min-height: 75px;
+
 }
